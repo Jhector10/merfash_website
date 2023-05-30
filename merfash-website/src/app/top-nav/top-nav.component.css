@@ -1,0 +1,12 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #F6C2B4;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
