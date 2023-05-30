@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {MatMenuModule} from '@angular/material';
 
 @Component({
   selector: 'app-top-nav',

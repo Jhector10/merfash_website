@@ -1,20 +1,21 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MatMenuModule } from '@angular/material';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { DesignTypesComponent } from './homepage/design-types/design-types.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
-      TopNavComponent
+      TopNavComponent,
+      HomepageComponent,
+      DesignTypesComponent
    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatMenuModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
