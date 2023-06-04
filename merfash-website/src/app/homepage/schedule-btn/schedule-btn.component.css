@@ -1,0 +1,13 @@
+.schedule-btn{
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+.schedule{   
+    display: flex;
+    justify-content: center;
+}
