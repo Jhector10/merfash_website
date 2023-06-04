@@ -9,4 +9,5 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px;
+    align-items: center;
 }
