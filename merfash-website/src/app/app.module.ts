@@ -6,8 +6,7 @@ import { TopNavComponent } from './top-nav/top-nav.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { DesignTypesComponent } from './homepage/design-types/design-types.component';
 import { ScheduleBtnComponent } from './homepage/schedule-btn/schedule-btn.component';
-import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
-import { MDBBootstrapModule } from 'angular-bootstrap-md'; 
+import { TestimonialsComponent } from './homepage/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [		
@@ -15,13 +14,12 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
       TopNavComponent,
       HomepageComponent,
       DesignTypesComponent,
-      ScheduleBtnComponent
+      ScheduleBtnComponent,
+      TestimonialsComponent
    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MdbCarouselModule,
-    MDBBootstrapModule.forRoot(),
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],

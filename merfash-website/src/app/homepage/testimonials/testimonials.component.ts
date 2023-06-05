@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
+import { Testimonials } from './testimonials';
+import { TestimonialsService } from './testimonials.service';
 
 @Component({
   selector: 'app-testimonials',
@@ -8,9 +9,16 @@ import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 })
 export class TestimonialsComponent implements OnInit {
 
-  constructor() { }
+  testimonials: Testimonials[] = [];
+  
+  constructor(private testimonialsService: TestimonialsService) { }
 
   ngOnInit() {
+    this.getTestimonials();
   }
 
+
+  getTestimonials(): void{
+    this.testimonialsService.getTestimonials().subscribe(testimonials => (this.testimonials = testimonials));
+  }
 }

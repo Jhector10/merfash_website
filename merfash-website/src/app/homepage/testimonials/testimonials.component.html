@@ -1,0 +1,24 @@
+<div class="main">
+  <h1>Testimonials</h1>
+</div>
+<div class="content">
+  <div *ngFor="let testimonial of testimonials">
+    <div class="card">
+      <div class="card-body">
+       <div class="quote">
+        <p>"{{testimonial.quote}}"</p>
+       </div>  
+       <div class="info">
+        <div>
+          <img class="person" src={{testimonial.img}} alt={{testimonial.alt}}>
+        </div>
+        <div>
+          <img class="five-stars" src="assets/five-stars.png" alt="Five stars">
+          <p class="caption" [innerHTML] = "testimonial.name"></p>
+          <p class="role" [innerHTML] = "testimonial.role"></p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
