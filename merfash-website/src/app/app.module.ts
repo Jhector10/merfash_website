@@ -15,7 +15,7 @@ import { TestimonialsComponent } from './homepage/testimonials/testimonials.comp
       HomepageComponent,
       DesignTypesComponent,
       ScheduleBtnComponent,
-      TestimonialsComponent
+      TestimonialsComponent,
    ],
   imports: [
     BrowserModule,
