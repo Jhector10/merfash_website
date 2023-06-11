@@ -1,16 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=DM+Sans&display=swap');
+
+.title{
+    font-family: "Lora", serif;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 800;
+}
 
 h1{
-    font-family: "DM Serif Display", serif;
+    font-family: "Lora", serif;
     text-align: center;
     font-size: 48px;
-    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 300;
 }
 
 h2{
-    font-family: "Rubik", sans-serif;
+    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-size: 24px;
@@ -19,7 +29,7 @@ h2{
 }
 
 h3{
-    font-family: "DM Serif Display", serif;
+    font-family: "Lora", serif;
     text-align: center;
     text-transform: capitalize;
     font-size: 24px;
@@ -28,7 +38,7 @@ h3{
 }
 
 p, a{
-    font-family: "Rubik", sans-serif;
+    font-family: "DM Sans", sans-serif;
     text-align: left;
     font-size: 16px;
     font-weight: 300;
@@ -36,7 +46,7 @@ p, a{
 }
 
 button{
-    font-family: "Rubik", sans-serif;
+    font-family: "DM Sans", sans-serif;
     text-transform: uppercase;
     text-align: left;
     font-size: 16px;
