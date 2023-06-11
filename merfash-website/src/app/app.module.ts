@@ -7,15 +7,19 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { DesignTypesComponent } from './homepage/design-types/design-types.component';
 import { ScheduleBtnComponent } from './homepage/schedule-btn/schedule-btn.component';
 import { TestimonialsComponent } from './homepage/testimonials/testimonials.component';
+import { FooterComponent } from './footer/footer.component';
+import { InstagramComponent } from './homepage/instagram/instagram.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
       TopNavComponent,
       HomepageComponent,
       DesignTypesComponent,
       ScheduleBtnComponent,
       TestimonialsComponent,
+      FooterComponent,
+      InstagramComponent
    ],
   imports: [
     BrowserModule,
