@@ -1,6 +1,5 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
 import { HomepageComponent } from './homepage/homepage.component';
@@ -9,9 +8,12 @@ import { ScheduleBtnComponent } from './homepage/schedule-btn/schedule-btn.compo
 import { TestimonialsComponent } from './homepage/testimonials/testimonials.component';
 import { FooterComponent } from './footer/footer.component';
 import { InstagramComponent } from './homepage/instagram/instagram.component';
+import { AboutComponent } from './about/about.component';
+import { RouterModule } from '@angular/router';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 @NgModule({
-  declarations: [			
+  declarations: [					
     AppComponent,
       TopNavComponent,
       HomepageComponent,
@@ -19,11 +21,17 @@ import { InstagramComponent } from './homepage/instagram/instagram.component';
       ScheduleBtnComponent,
       TestimonialsComponent,
       FooterComponent,
-      InstagramComponent
+      InstagramComponent,
+      AboutComponent,
+      PrivacyPolicyComponent
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    RouterModule.forRoot([
+      {path:'', component: HomepageComponent},
+      {path:'about', component: AboutComponent},
+      {path:'privacy-policy', component: PrivacyPolicyComponent}
+    ]),
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
