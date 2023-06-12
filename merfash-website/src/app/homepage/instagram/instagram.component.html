@@ -4,13 +4,13 @@
   <h1 class="ig-handle">@mercedessantana_merfash</h1>
   </div>
     <p>Be the first to know the news that I bring for you.</p>
-    <button onclick="location.href='https://www.instagram.com/mercedessantana_merfash/';" target="_blank">Follow me on my Instagram</button>
+    <button class='hvr-sweep-to-right' onclick="location.href='https://www.instagram.com/mercedessantana_merfash/';" target="_blank">Follow me on my Instagram</button>
   </div>
 <div class="content">
   <div *ngFor="let instagram of instagrams">
     <div class="card">
       <div class="card-body">
-        <a href="{{instagram.link}}" target='_blank'>
+        <a class="hvr-grow" href="{{instagram.link}}" target='_blank'>
           <img class="instagram-post" src={{instagram.img}} alt={{instagram.alt}}>
         </a>
         </div>

@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=DM+Sans&display=swap');
+@import url("hover.css/css/hover.css");
 
 .title{
     font-family: "Lora", serif;
@@ -54,6 +55,11 @@ button{
     line-height: 20px;
 }
 
+
 hr{
    margin: 40px 0px;
+}
+
+.hvr-sweep-to-right::before{
+    background-color: #CC3E3E;
 }

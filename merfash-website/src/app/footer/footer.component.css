@@ -7,10 +7,12 @@
     display: flex;
     padding-top: 20px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: row;
 }
 
 .links a{
     padding: 5px 24px;
+    color: white;
+    text-decoration: none;
 }
