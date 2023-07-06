@@ -8,6 +8,10 @@
     height: 50px;
 }
 
+.logo{
+    width:30px;
+}
+
 .fixed {
     position: fixed;
     width:100%;

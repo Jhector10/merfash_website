@@ -15,9 +15,10 @@ import { DesignsComponent } from './designs/designs.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms'; 
 import { ScheduleAppointmentComponent } from './schedule-appointment/schedule-appointment.component';
+import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
 
 @NgModule({
-  declarations: [								
+  declarations: [									
     AppComponent,
       TopNavComponent,
       HomepageComponent,
@@ -30,7 +31,8 @@ import { ScheduleAppointmentComponent } from './schedule-appointment/schedule-ap
       PrivacyPolicyComponent,
       DesignsComponent,
       ContactUsComponent,
-      ScheduleAppointmentComponent
+      ScheduleAppointmentComponent,
+      TermsOfServiceComponent
    ],
   imports: [
     BrowserModule,
@@ -39,6 +41,7 @@ import { ScheduleAppointmentComponent } from './schedule-appointment/schedule-ap
       {path:'', component: HomepageComponent},
       {path:'about', component: AboutComponent},
       {path:'privacy-policy', component: PrivacyPolicyComponent},
+      {path: 'terms-of-service', component:TermsOfServiceComponent},
       {path:'designs', component: DesignsComponent},
       {path:'contact-us', component: ContactUsComponent},
     ]),

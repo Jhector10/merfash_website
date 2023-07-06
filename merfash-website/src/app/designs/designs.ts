@@ -17,13 +17,13 @@ export const DESIGNS: Designs[] = [
     },
     {
         id: 3,
-        img: 'assets/bluefit.JPG',
-        alt: 'Blue Outfit'
+        img: 'assets/greenblack.jpg',
+        alt: 'Green and Black outfit'
     },
     {
         id: 4,
-        img: 'assets/wedding-haute-couture.jpg',
-        alt: 'Wedding couture dress'
+        img: 'assets/beigesuite.jpg',
+        alt: 'Beige Suit'
     },
     {
         id: 5,
@@ -32,68 +32,68 @@ export const DESIGNS: Designs[] = [
     },
     {
         id: 6,
-        img: 'assets/mercedes-santana-designer-haute-couture-6-scaled.jpg',
-        alt: 'Birthday outfit'
-    },
-    {
-        id: 7,
-        img: 'assets/lightpink.jpg',
-        alt: 'Light pink dress'
-    },
-    {
-        id: 8,
-        img: 'assets/mercedes-santana-designer-haute-couture-9.jpg',
-        alt: 'Trench coat outfit'
-    },
-    {
-        id: 9,
-        img: 'assets/nyfashionshow1.PNG',
-        alt: 'NYFW dress 1'
-    },
-    {
-        id: 10,
-        img: 'assets/nyfashionshow2.PNG',
-        alt: 'NYFW dress 2'
-    },
-    {
-        id: 11,
-        img: 'assets/nyfashionshow3.PNG',
-        alt: 'NYFW dress 3'
-    },
-    {
-        id: 12,
-        img: 'assets/pinkfront.jpg',
-        alt: 'Pink dress'
-    },
-    {
-        id: 13,
-        img: 'assets/nyfashionshow5.jpg',
-        alt: 'NYFW dress 5'
-    },
-    {
-        id: 14,
-        img: 'assets/WeddingDress.jpeg',
+        img: 'assets/weddingtracksfront.jpg',
         alt: 'Wedding Dress'
     },
     {
+        id: 7,
+        img: 'assets/twotoneblue.jpg',
+        alt: 'Two tone blue outfit'
+    },
+    {
+        id: 8,
+        img: 'assets/whitefit.jpg',
+        alt: 'White outfit'
+    },
+    {
+        id: 9,
+        img: 'assets/greywithouther.jpg',
+        alt: 'Grey dress'
+    },
+    {
+        id: 10,
+        img: 'assets/beigedown.jpg',
+        alt: 'Beige outfit'
+    },
+    {
+        id: 11,
+        img: 'assets/blueonbluesuit.jpg',
+        alt: 'Blue outfit'
+    },
+    {
+        id: 12,
+        img: 'assets/redwhiteblue.jpg',
+        alt: 'Red white and blue outfit'
+    },
+    {
+        id: 13,
+        img: 'assets/blackdetails.jpg',
+        alt: 'Black detail dress'
+    },
+    {
+        id: 14,
+        img: 'assets/pinkfront.jpg',
+        alt: 'Pink dress',
+    },
+    {
         id: 15,
-        img: 'assets/nyfashionshow14.jpg',
-        alt: 'NYFW dress 14'
+        img: 'assets/greenwithshoulders.jpg',
+        alt: 'Green dress with shoulders'
     },
     {
         id: 16,
-        img: 'assets/sleeveless.jpg',
-        alt: 'Sleeveless dress'
+        img: 'assets/pinkig.jpg',
+        alt: 'Pink ruffle dress'
     },
     {
         id: 17,
-        img: 'assets/yellow1.jpg',
-        alt: 'Yellow dress'
+        img: 'assets/bluestreaks.jpg',
+        alt: 'Blue streak dress'
     },
     {
         id: 18,
-        img: 'assets/purplewithstairs.jpg',
-        alt: 'Purple prom dress'
+        img: 'assets/whitepoofy.jpg',
+        alt: 'White poofy dress'
     },
     
 ]
