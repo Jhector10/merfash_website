@@ -11,9 +11,14 @@ import { InstagramComponent } from './homepage/instagram/instagram.component';
 import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { DesignsComponent } from './designs/designs.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ReactiveFormsModule } from '@angular/forms'; 
+import { ScheduleAppointmentComponent } from './schedule-appointment/schedule-appointment.component';
+import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
 
 @NgModule({
-  declarations: [					
+  declarations: [									
     AppComponent,
       TopNavComponent,
       HomepageComponent,
@@ -23,14 +28,22 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
       FooterComponent,
       InstagramComponent,
       AboutComponent,
-      PrivacyPolicyComponent
+      PrivacyPolicyComponent,
+      DesignsComponent,
+      ContactUsComponent,
+      ScheduleAppointmentComponent,
+      TermsOfServiceComponent
    ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
     RouterModule.forRoot([
       {path:'', component: HomepageComponent},
       {path:'about', component: AboutComponent},
-      {path:'privacy-policy', component: PrivacyPolicyComponent}
+      {path:'privacy-policy', component: PrivacyPolicyComponent},
+      {path: 'terms-of-service', component:TermsOfServiceComponent},
+      {path:'designs', component: DesignsComponent},
+      {path:'contact-us', component: ContactUsComponent},
     ]),
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

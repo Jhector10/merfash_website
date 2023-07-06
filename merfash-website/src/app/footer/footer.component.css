@@ -1,20 +1,36 @@
 .footer{
-    color:white;
-    background-color: black;
-    padding: 30px 0px;
+    color:black;
+    background-color: #FFDFE0;
     margin-top: 40px;
+    padding: 30px 0px 20px;
+    border-top: 1px solid black;
+}
+
+.primary-links{
+    display:flex;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .links{
     display: flex;
-    padding-top: 20px;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.links a{
-    padding: 5px 24px;
-    color: white;
+.links a, .links p{
+    padding: 10px 24px;
+    color: black;
     text-decoration: none;
+    margin: 0px;
+    font-size: 0.8em;
+}
+
+img{
+    width:20px;
+    padding: 10px 24px;
 }

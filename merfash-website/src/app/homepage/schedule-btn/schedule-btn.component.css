@@ -6,6 +6,9 @@
     padding: 15px;
     color: white;
 }
+.schedule-btn:hover{
+    color:black !important;
+}
 
 .schedule{   
     display: flex;

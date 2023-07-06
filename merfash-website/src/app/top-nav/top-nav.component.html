@@ -1,15 +1,44 @@
 <nav class="top-nav">
   <section class="contact">
     <p>1 (201) 655 4251</p>
-    <p>Merfash77@gmail.com</p>
+    <p><a class="hvr-grow" href="mailto:Merfash77@gmail.com">Merfash77@gmail.com</a></p>
+    <!-- <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+      }
+    </script>
+           -->
+
   </section>
-  <section class="nav-links">
-    <div class="links">
+  <section id="nav-links" (scroll)="onScroll()" [ngClass]="navbarfixed ? 'fixed' : 'notfixed'">
+    <div id="links">
+      <img class="logo" alt="Logo" src="assets/MerfashLogo.jpg">
       <a class="hvr-grow" href="/">Home</a>
       <a class="hvr-grow" href="/about">About me</a>
-      <a class="hvr-grow">Designs</a>
-      <a class="hvr-grow">Contact us</a>    
-      <app-schedule-btn></app-schedule-btn>
+      <a class="hvr-grow" href="/designs">Designs</a>
+      <a class="hvr-grow" href="/contact-us">Contact us</a>    
+      <a class="hvr-sweep-to-right">Schedule Appointment</a>   
     </div>
   </section>
 </nav>
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("nav-links");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>

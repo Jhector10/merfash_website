@@ -18,6 +18,10 @@
     color: white;
     margin: 10px;
   }
+
+  .primary-btn:hover{
+    color:black !important;
+  }
   
   .secondary-btn {
     text-align: center;
