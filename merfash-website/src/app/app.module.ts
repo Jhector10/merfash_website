@@ -16,6 +16,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms'; 
 import { ScheduleAppointmentComponent } from './schedule-appointment/schedule-appointment.component';
 import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [									
@@ -37,6 +38,7 @@ import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.com
   imports: [
     BrowserModule,
     ReactiveFormsModule,
+    HttpClientModule,
     RouterModule.forRoot([
       {path:'', component: HomepageComponent},
       {path:'about', component: AboutComponent},
@@ -44,6 +46,7 @@ import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.com
       {path: 'terms-of-service', component:TermsOfServiceComponent},
       {path:'designs', component: DesignsComponent},
       {path:'contact-us', component: ContactUsComponent},
+      {path:'schedule-appointment', component: ScheduleAppointmentComponent}
     ]),
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

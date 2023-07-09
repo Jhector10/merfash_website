@@ -7,9 +7,6 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
   styleUrls: ['./contact-us.component.css']
 })
 export class ContactUsComponent implements OnInit {
-onSubmit(arg0: any) {
-throw new Error('Method not implemented.');
-}
 
   FormData!: FormGroup;
   constructor(private builder: FormBuilder) { }
@@ -22,7 +19,9 @@ throw new Error('Method not implemented.');
       Message: new FormControl('', [Validators.required])
     })
   }
-
+  
+  onSubmit(FormData: any) {
+  }
 }
 
 
