@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import {MatDatepickerModule} from '@angular/material/datepicker';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-schedule-appointment',
@@ -21,7 +21,8 @@ export class ScheduleAppointmentComponent implements OnInit {
           Email: new FormControl('', [Validators.required, Validators.email]),
           Phonenumber: new FormControl('', [Validators.required]),
           DateAndTime: new FormControl('', [Validators.required]),
-        })
+        });
+        AOS.init();
       }
     
 
