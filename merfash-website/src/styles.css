@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=DM+Sans&display=swap');
 @import url("hover.css/css/hover.css");
+@import url("@fortawesome/fontawesome-free/css/all.css");
 
 html{
     margin: 0 auto;
@@ -71,3 +72,20 @@ hr{
     background-color: #FFDFE0;
     color:black !important;
 }
+
+#google_translate_element{
+    z-index: 10;
+ }
+
+.google-trans{
+    font-family: "DM Sans", sans-serif;
+    background-color: #ffdfe0;
+    position: fixed;
+    padding: 5px;
+    border-radius: 10px 0px 0px 0px;
+    bottom: 0;
+    right: 0;
+}
+
+#google_translate_element .goog-te-gadget-simple .goog-te-menu-value span:first-child{display: none;}
+#google_translate_element .goog-te-gadget-simple .goog-te-menu-value:before{content: 'Translate'}
