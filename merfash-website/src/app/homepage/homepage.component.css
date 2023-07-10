@@ -22,20 +22,24 @@
 
 .intro-img {
   background-image: url("/assets/vecteezy_a-flower-with-open-leaves-of-a-light-pink.png");
-  background-size: 300px;
+  background-size: 200px;
   background-repeat: no-repeat;
-  background-position: 15% 75%;
+  background-position: 10% 75%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .intro-gif {
-  width: 250px;
+  width: 300px;
   display: block;
-  padding: 80px;
+  padding: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.nyfw-text{
+    margin-left: 20px;
 }
 
 .nyfw-text h1,

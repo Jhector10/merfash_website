@@ -16,9 +16,11 @@ export class ScheduleAppointmentComponent implements OnInit {
       constructor(private builder: FormBuilder) { }
       ngOnInit() {
         this.FormData = this.builder.group({
-          Fullname: new FormControl('', [Validators.required]),
+          Firstname: new FormControl('', [Validators.required]),
+          Lastname: new FormControl('', [Validators.required]),
           Email: new FormControl('', [Validators.required, Validators.email]),
           Phonenumber: new FormControl('', [Validators.required]),
+          DateAndTime: new FormControl('', [Validators.required]),
         })
       }
     
