@@ -62,3 +62,7 @@ button a:hover{
 button:hover{
     color:black !important;
 }
+
+.main p{
+  margin: 20px 0px;
+}
