@@ -17,7 +17,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ScheduleAppointmentComponent } from './schedule-appointment/schedule-appointment.component';
 import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
 import { HttpClientModule } from '@angular/common/http';
-import { DlDateTimeDateModule, DlDateTimePickerModule } from 'angular-bootstrap-datetimepicker';
 
 @NgModule({
   declarations: [									

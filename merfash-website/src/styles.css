@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=DM+Sans&display=swap');
 @import url("hover.css/css/hover.css");
 @import url("@fortawesome/fontawesome-free/css/all.css");
-@import '~bootstrap/dist/css/bootstrap.min.css';
-@import '~open-iconic/font/css/open-iconic-bootstrap.css';
 
 html{
     margin: 0 auto;

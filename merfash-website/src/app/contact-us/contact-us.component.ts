@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-contact-us',
@@ -17,7 +18,8 @@ export class ContactUsComponent implements OnInit {
       Phonenumber: new FormControl('', [Validators.required]),
       Location: new FormControl('', [Validators.required]),
       Message: new FormControl('', [Validators.required])
-    })
+    });
+    AOS.init();
   }
   
   onSubmit(FormData: any) {
