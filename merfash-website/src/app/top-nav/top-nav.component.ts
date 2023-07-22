@@ -1,5 +1,5 @@
 import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ResolveEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-top-nav',
@@ -7,7 +7,27 @@ import { Router } from '@angular/router';
   styleUrls: ['./top-nav.component.css']
 })
 export class TopNavComponent{
-
+  constructor(private router: Router) { }
+  ngOnInit(){
+    this.router.events.subscribe((routerData) => {
+      
+      if (routerData instanceof ResolveEnd) {
+        if (routerData.url == '/about') {
+          const currentPage = document.querySelectorAll<HTMLElement>('.main-nav');
+          currentPage[1].style.borderBottom = "2px solid ##ffafb0";
+        } 
+        // else if (routerData.url == '/designs') {
+        //   currentPage[2].style.borderBottom = "2px solid ##ffafb0";
+        // } else if (routerData.url == '/contact-us') {
+        //   currentPage[3].style.borderBottom = "2px solid ##ffafb0";
+        // } else if (routerData.url == '/schedule-appointment') {
+        //   currentPage[4].style.borderBottom = "2px solid ##ffafb0";
+        // } else {
+        //   currentPage[0].style.borderBottom = "2px solid ##ffafb0";
+        // }
+      }
+    });
+  }
   showLinks(): void {
     var x = document.getElementById("links");
     var open = document.getElementById("to-open");

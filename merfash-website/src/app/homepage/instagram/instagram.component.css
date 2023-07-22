@@ -66,3 +66,9 @@ button:hover{
 .main p{
   margin: 20px 0px;
 }
+
+@media screen and (max-width:830px) {
+  .content{
+    grid-template-columns: 50% 50%;
+  }
+}

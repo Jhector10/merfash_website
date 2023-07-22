@@ -7,7 +7,12 @@
     position: relative;
     height: 50px;
 }
-
+ .contact-links{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px;
+    }
 .logo {
     height: 40px; 
 }
@@ -91,4 +96,10 @@ a {
 
 .hvr-sweep-to-right {
     padding: 5px;
+}
+
+@media screen and (max-width: 350px){
+    .contact a{
+        font-size: 0.8em;
+    }
 }

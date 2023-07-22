@@ -84,11 +84,13 @@ hr{
     font-family: "DM Sans", sans-serif;
     background-color: #ffdfe0;
     position: fixed;
+    width: 50px;
     padding: 5px;
     border-radius: 10px 0px 0px 0px;
     bottom: 0;
     right: 0;
 }
 
-#google_translate_element .goog-te-gadget-simple .goog-te-menu-value span:first-child{display: none;}
-#google_translate_element .goog-te-gadget-simple .goog-te-menu-value:before{content: 'Translate'}
+.VIpgJd-ZVi9od-ORHb-OEVmcd{
+    display: none !important;
+}

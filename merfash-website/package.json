@@ -15,20 +15,28 @@
     "@angular/common": "^14.0.0",
     "@angular/compiler": "^14.0.0",
     "@angular/core": "^14.0.0",
+    "@angular/fire": "^7.6.1",
     "@angular/forms": "^14.0.0",
     "@angular/material": "^16.1.4",
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-free": "^6.4.0",
     "@ngx-translate/http-loader": "^8.0.0",
+    "@sendgrid/mail": "^7.7.0",
     "aos": "^2.3.4",
+    "dotenv": "^16.3.1",
+    "firebase": "^10.0.0",
     "hover.css": "^2.3.2",
+    "nodemailer": "^6.9.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
+    "@angular-builders/custom-webpack": "^16.0.0",
+    "@angular-builders/dev-server": "^7.3.1",
     "@angular-devkit/build-angular": "^14.0.4",
     "@angular/cli": "^14.2.12",
     "@angular/compiler-cli": "^14.0.0",
@@ -41,5 +49,10 @@
     "karma-jasmine": "~5.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.7.2"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }
