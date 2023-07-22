@@ -33,7 +33,7 @@ import { HttpClientModule } from '@angular/common/http';
       DesignsComponent,
       ContactUsComponent,
       ScheduleAppointmentComponent,
-      TermsOfServiceComponent
+      TermsOfServiceComponent,
    ],
   imports: [
     BrowserModule,
@@ -53,4 +53,5 @@ import { HttpClientModule } from '@angular/common/http';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+}
