@@ -33,8 +33,6 @@ export class AppComponent implements OnInit {
       if (routerData instanceof ResolveEnd) {
         if (routerData.url == '/about') {
           document.title = "About Me | Mercedes Santana";
-          const currentPage = document.querySelectorAll<HTMLElement>('.links .hvr-grow');
-          currentPage[1].style.textDecoration = "underline"
         } else if (routerData.url == '/privacy-policy') {
           document.title = "Privacy Policy | Mercedes Santana";
         } else if (routerData.url == '/terms-of-service') {

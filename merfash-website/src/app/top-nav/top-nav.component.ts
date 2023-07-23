@@ -16,16 +16,20 @@ export class TopNavComponent{
       //     const currentPage = document.querySelectorAll<HTMLElement>('.main-nav');
       //     currentPage[1].style.borderBottom = "2px solid ##ffafb0";
       //   } 
-        // else if (routerData.url == '/designs') {
-        //   currentPage[2].style.borderBottom = "2px solid ##ffafb0";
-        // } else if (routerData.url == '/contact-us') {
-        //   currentPage[3].style.borderBottom = "2px solid ##ffafb0";
-        // } else if (routerData.url == '/schedule-appointment') {
-        //   currentPage[4].style.borderBottom = "2px solid ##ffafb0";
-        // } else {
-        //   currentPage[0].style.borderBottom = "2px solid ##ffafb0";
-        // }
-      //}
+      //   else if (routerData.url == '/designs') {
+      //     const currentPage = document.querySelectorAll<HTMLElement>('.main-nav');
+      //     currentPage[2].style.borderBottom = "2px solid ##ffafb0";
+      //   } else if (routerData.url == '/contact-us') {
+      //     const currentPage = document.querySelectorAll<HTMLElement>('.main-nav');
+      //     currentPage[3].style.borderBottom = "2px solid ##ffafb0";
+      //   } else if (routerData.url == '/schedule-appointment') {
+      //     const currentPage = document.querySelectorAll<HTMLElement>('.main-nav');
+      //     currentPage[4].style.borderBottom = "2px solid ##ffafb0";
+      //   } else {
+      //     const currentPage = document.querySelectorAll<HTMLElement>('.main-nav');
+      //     currentPage[0].style.borderBottom = "2px solid ##ffafb0";
+      //   }
+      // }
     });
   }
   showLinks(): void {
