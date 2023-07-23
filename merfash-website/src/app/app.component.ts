@@ -12,20 +12,20 @@ import { TopNavComponent } from './top-nav/top-nav.component';
 
 export class AppComponent implements OnInit {
   
-  firebaseConfig = {
-    apiKey: "AIzaSyBf4IVhm3Q32wNxbrUM5Cn1SiJhckFh3ZM",
-    authDomain: "merfash-website.firebaseapp.com",
-    projectId: "merfash-website",
-    storageBucket: "merfash-website.appspot.com",
-    messagingSenderId: "1040939818478",
-    appId: "1:1040939818478:web:0f499d59587fd1c417c2ff",
-    measurementId: "G-X59QXSEMGJ"
-  };
+  // firebaseConfig = {
+  //   apiKey: "AIzaSyBf4IVhm3Q32wNxbrUM5Cn1SiJhckFh3ZM",
+  //   authDomain: "merfash-website.firebaseapp.com",
+  //   projectId: "merfash-website",
+  //   storageBucket: "merfash-website.appspot.com",
+  //   messagingSenderId: "1040939818478",
+  //   appId: "1:1040939818478:web:0f499d59587fd1c417c2ff",
+  //   measurementId: "G-X59QXSEMGJ"
+  // };
   
-  // Initialize Firebase
-  app = initializeApp(this.firebaseConfig);
-  analytics = getAnalytics(this.app);
-  db = getFirestore(this.app);
+  // // Initialize Firebase
+  // app = initializeApp(this.firebaseConfig);
+  // analytics = getAnalytics(this.app);
+  // db = getFirestore(this.app);
   routerData: any;
   constructor(private router: Router) { }
   ngOnInit(){
