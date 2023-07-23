@@ -34,3 +34,11 @@
     border: 1px solid black;
     margin: 10px;
   }
+  a{
+    color: white !important;
+    text-decoration: none;
+}
+
+a:hover{
+    color:black !important;
+}

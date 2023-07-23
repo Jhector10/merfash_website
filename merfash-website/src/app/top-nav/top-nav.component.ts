@@ -11,11 +11,11 @@ export class TopNavComponent{
   ngOnInit(){
     this.router.events.subscribe((routerData) => {
       
-      if (routerData instanceof ResolveEnd) {
-        if (routerData.url == '/about') {
-          const currentPage = document.querySelectorAll<HTMLElement>('.main-nav');
-          currentPage[1].style.borderBottom = "2px solid ##ffafb0";
-        } 
+      // if (routerData instanceof ResolveEnd) {
+      //   if (routerData.url == '/about') {
+      //     const currentPage = document.querySelectorAll<HTMLElement>('.main-nav');
+      //     currentPage[1].style.borderBottom = "2px solid ##ffafb0";
+      //   } 
         // else if (routerData.url == '/designs') {
         //   currentPage[2].style.borderBottom = "2px solid ##ffafb0";
         // } else if (routerData.url == '/contact-us') {
@@ -25,7 +25,7 @@ export class TopNavComponent{
         // } else {
         //   currentPage[0].style.borderBottom = "2px solid ##ffafb0";
         // }
-      }
+      //}
     });
   }
   showLinks(): void {
