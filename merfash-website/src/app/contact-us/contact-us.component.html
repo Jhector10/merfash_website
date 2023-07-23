@@ -1,10 +1,9 @@
 <div class="container" data-aos="fade-up" data-aos-duration="3000">
-  <h1>Get In Touch</h1>
-  <div class="align">
-    <div class="contact-links">
-      <div class="hvr-grow">
-        <a href="mailto:Merfash77@gmail.com"
-          ><i class="fa-regular fa-envelope"></i>Merfash77@gmail.com</a
+    <h1>Get In Touch</h1>
+    <div class="align">
+        <div class="contact-links">
+            <div class="hvr-grow">
+                <a href="mailto:Merfashdesigner77@gmail.com"><i class="fa-regular fa-envelope"></i>Email</a
         >
       </div>
       <div class="hvr-grow">
@@ -22,70 +21,37 @@
       <div class="hvr-grow">
         <i class="fa-brands fa-whatsapp"></i
         ><a href="https://wa.me/12016554251" target="_blank">Whatsapp</a>
-      </div>
-    </div>
-    <div class="row">
-      <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
-        <div class="grid">
-          <div class="form-group">
-            <label for="fullname">Full Name</label>
-            <input
-              type="text"
-              class="form-control"
-              name="Fullname"
-              placeholder="Full Name"
-              formControlName="Fullname"
-            />
-          </div>
-          <div class="form-group">
-            <label for="Email">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              name="Email"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
-              formControlName="Email"
-            />
-          </div>
-          <div class="form-group">
-            <label for="Phonenumber">Phone Number</label>
-            <input
-              type="text"
-              class="form-control"
-              name="Phonenumber"
-              placeholder="Phone Number"
-              formControlName="Phonenumber"
-            />
-          </div>
-          <div class="form-group">
-            <label for="Location">Location</label>
-            <input
-              type="text"
-              class="form-control"
-              name="Location"
-              placeholder="Location"
-              formControlName="Location"
-            />
-          </div>
+            </div>
         </div>
-        <div class="form-group">
-          <label for="comment">Message</label>
-          <textarea
-            class="form-control"
-            formControlName="Message"
-            name="Message"
-          >
+        <div class="row">
+            <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
+                <div class="grid">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" class="form-control" name="Fullname" placeholder="Full Name" formControlName="Fullname" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="Enter email" formControlName="Email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Phonenumber">Phone Number</label>
+                        <input type="text" class="form-control" name="Phonenumber" placeholder="Phone Number" formControlName="Phonenumber" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Location">Location</label>
+                        <input type="text" class="form-control" name="Location" placeholder="Location" formControlName="Location" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Message</label>
+                    <textarea class="form-control" formControlName="Message" name="Message">
           </textarea>
-        </div>
-        <button
-          type="submit"
-          class="primary-btn hvr-sweep-to-right"
-          [disabled]="!FormData.valid"
-        >
+                </div>
+                <button type="submit" class="primary-btn hvr-sweep-to-right" [disabled]="!FormData.valid">
           Submit
         </button>
-      </form>
+            </form>
+        </div>
     </div>
-  </div>
-  </div>
+</div>

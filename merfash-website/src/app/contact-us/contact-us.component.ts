@@ -52,8 +52,8 @@ export class ContactUsComponent implements OnInit {
     ) {
       alert('One of the fields are missing');
     } else {
-      emailjs.init("xf8PlghLHzySotVOq");
-      emailjs.send("service_s2lpli9", "template_ysr442s", {
+      emailjs.init("RgjAzT1A8P1yFGKq8");
+      emailjs.send("service_kuqai9k", "template_ns5rs07", {
         from_name: mail.fullname,
         to_name: "Mercedes Santana",
         message: mail.message,
