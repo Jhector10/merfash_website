@@ -7,13 +7,13 @@ export class Designs{
 export const DESIGNS: Designs[] = [
     {
         id: 1,
-        img: 'assets/blackbodycon.jpg',
-        alt: 'Black Bodycon dress'
+        img: 'assets/giselle-white.jpg',
+        alt: 'Recent white ruffles dress'
     },
     {
         id: 2,
-        img: 'assets/grey.jpg',
-        alt: 'Grey dress'
+        img: 'assets/two-dresses.jpg',
+        alt: 'Two custom wedding dresses (multiple iterations)'
     },
     {
         id: 3,
@@ -94,6 +94,16 @@ export const DESIGNS: Designs[] = [
         id: 18,
         img: 'assets/whitepoofy.jpg',
         alt: 'White poofy dress'
+    },
+    {
+        id: 19,
+        img: 'assets/blackbodycon.jpg',
+        alt: 'Black Bodycon dress'
+    },
+    {
+        id: 20,
+        img: 'assets/grey.jpg',
+        alt: 'Grey dress'
     },
     
 ]
