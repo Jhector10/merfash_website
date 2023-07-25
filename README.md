@@ -1,26 +1,27 @@
-# merfash_website
-A website created for Fashion Designer Mercedes Santana
+# MerfashWebsite
 
-1. What do you like on a website?
-    - She likes the About Us section
-    - The different examples below the about us section
-    - Testimonials is cool, would like it to be updated
-    - The links to the ig
-    - The contact us page
-    - The scheduling appt (to connect to her email), and wishing that it can be included in her social medias
-2. Her pain points with the website?
-    - She doesnt like the first thing she sees (the big title, doesnt like how it looks)
-    - The About Me needs to be longer, and include an english section
-    - Put new pictures in Design
-3. Her customer’s pain points with the website?
-    - They normally dont use it all that often (probably due to her unwillingness to promote as often)
-    - Professional people view it tho
-4. What is a goal that you have for your business?
-    - Wants to have a store one day, website will be a good foundation for that
-5. What is something that is not on the website that you would like on it?
-    - Wants a commercial side so that she can possibly sell her dresses that can be for everyone
-6. Would you like the site to link to your IG, Whatsapp, or Facebook?
-    - Yes, same as the current website is okay
-7. When someone goes on your site, what would you like for it to feel like?
-    - Want it to feel glamorous
-    - Want them to feel beautiful and happy
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
