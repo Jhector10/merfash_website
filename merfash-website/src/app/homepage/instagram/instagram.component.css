@@ -1,0 +1,74 @@
+.content {
+  margin: 0 auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+}
+.card-body {
+  margin: 10px;
+}
+.ig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ig-logo{
+    width:40px;
+    margin-right:10px;
+    margin-top:0px;
+}
+
+.instagram-post {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: 0px 0px;
+}
+
+.main {
+  width: 100%;
+  justify-items: center;
+  padding-bottom: 40px;
+}
+
+.main p {
+  text-align: center;
+}
+button{
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  border: none;
+  max-width: 300px;
+  box-shadow: none;
+  background-color: black !important;
+  padding: 15px;
+  color: white !important;
+}
+
+
+button a{
+  color:white;
+  text-decoration: none;
+}
+
+button a:hover{
+  color: black;
+}
+
+button:hover{
+    color:black !important;
+}
+
+.main p{
+  margin: 20px 0px;
+}
+
+@media screen and (max-width:830px) {
+  .content{
+    grid-template-columns: 50% 50%;
+  }
+}

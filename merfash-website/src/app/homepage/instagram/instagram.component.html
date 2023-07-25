@@ -1,0 +1,19 @@
+<div class="main">
+  <div class="ig">
+    <img class="ig-logo" src="assets/ig-logo.png">
+    <h1 class="ig-handle">Instagram</h1>
+  </div>
+  <p>Be the first to know the news that I bring for you.</p>
+  <button class='hvr-sweep-to-right'><a href="https://www.instagram.com/mercedessantana_merfash/" target="_blank">Follow me on my Instagram</a></button>
+</div>
+<div class="content">
+  <div *ngFor="let instagram of instagrams">
+    <div class="cards">
+      <div class="card-body">
+        <a class="hvr-grow" href="{{instagram.link}}" target='_blank'>
+          <img class="instagram-post" src={{instagram.img}} alt={{instagram.alt}}>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

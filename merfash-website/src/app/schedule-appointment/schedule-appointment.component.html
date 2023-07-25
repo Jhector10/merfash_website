@@ -1,0 +1,36 @@
+<div class="container" data-aos="fade-up" data-aos-duration="3000">
+  <h1>Pre-book an appointment now</h1>
+  <p>That feeling when you wear an amazing outfit.</p>
+<div class="row">
+  <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">    
+    <div class="grid">
+    <div class="form-group">
+      <label for="fullname">First Name</label>
+      <input type="text" class="form-control" name="Firstname" placeholder="First Name" formControlName="Firstname">
+    </div>
+    <div class="form-group">
+      <label for="fullname">Last Name</label>
+      <input type="text" class="form-control" name="Lastname" placeholder="Last Name" formControlName="Lastname">
+    </div>
+    <div class="form-group">
+      <label for="Email">Email</label>
+      <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="Enter email"
+        formControlName="Email">
+    </div>
+    <div class="form-group">
+      <label for="Phonenumber">Phone Number</label>
+      <input type="text" class="form-control" name="Phonenumber" placeholder="Phone Number" formControlName="Phonenumber">
+    </div>
+    <div class="form-group">
+      <label for="DateAndTime">Date & Time</label>
+      <mat-form-field>
+        <input matInput type="datetime-local" placeholder="start date" class="form-control" name="DateAndTime" formControlName="DateAndTime">
+      </mat-form-field>
+    </div></div>
+    <div class="button-align">
+    <button type="submit" class="primary-btn hvr-sweep-to-right" [disabled]="!FormData.valid">Schedule Your Appointment</button>
+   </div>
+  </form>
+
+</div>
+</div>
