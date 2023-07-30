@@ -7,12 +7,32 @@
     position: relative;
     height: 50px;
 }
- .contact-links{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: 5px;
+
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+#links a {
+    color: black;
+    margin-right: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:414px) {
+    .contact-links {
+        font-size: 0.8em;
     }
+}
+
 
     a {
         color: #000 !important;
@@ -33,7 +53,7 @@
         
     }
 .logo {
-    height: 40px; 
+    height: 40px;
 }
 
 .fixed {
@@ -51,36 +71,32 @@
 }
 
 @media screen and (min-width: 768px) {
-.nav-links {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0px;
-    align-items: center;
-    border-bottom: 1px solid #000;
-    background-color: white;
-}
-
-.nav-links i {
-    display: none;
-}
+    .nav-links {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px;
+        align-items: center;
+        border-bottom: 1px solid #000;
+        background-color: white;
+    }
+    .nav-links i {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
     #to-close {
         display: none;
     }
-
     .hamburger {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
     .nav-links i {
         display: block;
         margin-right: 20px;
     }
-
     .nav-links {
         display: block;
         width: 100%;
@@ -88,32 +104,31 @@
         border-bottom: 1px solid #000;
         background-color: white;
     }
-
     #links {
         padding-top: 30px;
         display: none;
         transition: ease-in-out 0.5s;
     }
-
     .nav-links a {
         display: block;
         margin-bottom: 20px;
         text-align: center;
         margin-right: 0px;
     }
-
-    #links a{
-        margin-right: 0px;
+    #links a {
+        color: black;
+        margin-right: 30px;
+        text-decoration: none;
+        text-transform: capitalize;
     }
 }
-
 
 .hvr-sweep-to-right {
     padding: 5px;
 }
 
-@media screen and (max-width: 350px){
-    .contact a{
+@media screen and (max-width: 350px) {
+    .contact a {
         font-size: 0.8em;
     }
 }
