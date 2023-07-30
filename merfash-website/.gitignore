@@ -6,7 +6,6 @@
 /out-tsc
 /bazel-out
 /src/environments/firebase-vars.ts
-docs/*
 
 # Node
 /node_modules
