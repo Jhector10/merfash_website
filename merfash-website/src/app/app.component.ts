@@ -4,6 +4,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 import { TopNavComponent } from './top-nav/top-nav.component';
+import { firebaseVars } from 'src/environments/firebase-vars';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,15 +13,15 @@ import { TopNavComponent } from './top-nav/top-nav.component';
 
 export class AppComponent implements OnInit {
   
-  // firebaseConfig = {
-  //   apiKey: "AIzaSyBf4IVhm3Q32wNxbrUM5Cn1SiJhckFh3ZM",
-  //   authDomain: "merfash-website.firebaseapp.com",
-  //   projectId: "merfash-website",
-  //   storageBucket: "merfash-website.appspot.com",
-  //   messagingSenderId: "1040939818478",
-  //   appId: "1:1040939818478:web:0f499d59587fd1c417c2ff",
-  //   measurementId: "G-X59QXSEMGJ"
-  // };
+  firebaseConfig = {
+    apiKey: firebaseVars.apiKey,
+    authDomain: firebaseVars.authDomain,
+    projectId: firebaseVars.projectId,
+    storageBucket: firebaseVars.storageBucket,
+    messagingSenderId: firebaseVars.messagingSenderId,
+    appId: firebaseVars.appId,
+    measurementId: firebaseVars.measurementId
+  };
   
   // // Initialize Firebase
   // app = initializeApp(this.firebaseConfig);
