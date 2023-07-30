@@ -62,11 +62,16 @@
 
 .video {
     width: 25%;
-    height: 500px;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    object-fit: cover;
-    object-position: 15% 0%;
     padding: 20px 0px 20px;
+}
+
+@media screen and (max-width: 775px) {
+    .video{
+        width:80%;
+    }
+    
 }

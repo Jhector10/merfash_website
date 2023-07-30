@@ -13,6 +13,25 @@
         align-items: center;
         gap: 5px;
     }
+
+    a {
+        color: #000 !important;
+        text-decoration: none !important;
+    }
+    
+    #links a {
+        color: black;
+        margin-right: 30px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+    @media screen and (max-width:414px) {
+        .contact-links{
+            font-size: 0.8em;
+        }
+        
+    }
 .logo {
     height: 40px; 
 }
@@ -71,6 +90,7 @@
     }
 
     #links {
+        padding-top: 30px;
         display: none;
         transition: ease-in-out 0.5s;
     }
@@ -79,20 +99,14 @@
         display: block;
         margin-bottom: 20px;
         text-align: center;
+        margin-right: 0px;
+    }
+
+    #links a{
+        margin-right: 0px;
     }
 }
 
-a {
-    color: #000 !important;
-    text-decoration: none !important;
-}
-
-#links a {
-    color: black;
-    margin-right: 30px;
-    text-decoration: none;
-    text-transform: capitalize;
-}
 
 .hvr-sweep-to-right {
     padding: 5px;
