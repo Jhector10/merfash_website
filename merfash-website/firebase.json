@@ -1,20 +1,18 @@
 {
+    "firestore": {
+        "rules": "firestore.rules",
+        "indexes": "firestore.indexes.json"
+    },
     "hosting": {
         "public": "docs",
-        "appAssociation": "AUTO",
-        "rewrites": [{
-            "source": "/**",
-            "dynamicLinks": true
-        }],
-        "redirects": [{
-            "source": "about",
-            "destination": "https://www.mercedessantana.com/about",
-            "type": 301
-        }],
         "ignore": [
             "firebase.json",
             "**/.*",
             "**/node_modules/**"
-        ]
+        ],
+        "rewrites": [{
+            "source": "**",
+            "destination": "/index.html"
+        }]
     }
 }
