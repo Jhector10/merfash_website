@@ -27,7 +27,7 @@ export const DESIGNS: Designs[] = [
     },
     {
         id: 5,
-        img: 'assets/gold.jpg',
+        img: 'assets/Gold-around-the-met-gala.jpg',
         alt: 'Gold dress'
     },
     {
