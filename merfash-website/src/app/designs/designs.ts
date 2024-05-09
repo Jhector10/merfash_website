@@ -7,8 +7,8 @@ export class Designs{
 export const DESIGNS: Designs[] = [
     {
         id: 1,
-        img: 'assets/giselle-white.jpg',
-        alt: 'Recent white ruffles dress'
+        img: 'assets/Emily-ratajkowski-at-met-gala.jpg',
+        alt: 'Emily Ratajkowski at Met Gala'
     },
     {
         id: 2,
@@ -27,7 +27,7 @@ export const DESIGNS: Designs[] = [
     },
     {
         id: 5,
-        img: 'assets/gold.jpg',
+        img: 'assets/Gold-around-the-met-gala.jpg',
         alt: 'Gold dress'
     },
     {
@@ -104,6 +104,11 @@ export const DESIGNS: Designs[] = [
         id: 20,
         img: 'assets/grey.jpg',
         alt: 'Grey dress'
+    },
+    {
+        id: 21,
+        img: 'assets/giselle-white.jpg',
+        alt: 'Recent white ruffles dress'
     },
     
 ]

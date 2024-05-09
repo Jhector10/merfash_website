@@ -20,8 +20,8 @@ export const INSTAGRAM: Instagram[] = [
     },
     {
         id: 3,
-        link: 'https://www.instagram.com/p/Ci8x4oUshRT/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==',
-        img: 'assets/nyfashionshow1.PNG',
+        link: 'https://www.instagram.com/mercedessantana_merfash/p/C6u7pR2sp7k/?img_index=1',
+        img: 'assets/Met-gala-2024.jpg',
         alt: 'Instagram post 3',
     },
     {
