@@ -177,7 +177,7 @@ export const DESIGNS: Designs[] = [
     },
     {
         id: 35,
-        img: 'assets/nj_moda/nj-moda-35.jpg',
+        img: 'assets/nj_moda/nj-moda-37.jpg',
         alt: 'Recent white ruffles dress'
     },
 ]
