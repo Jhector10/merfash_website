@@ -16,7 +16,7 @@ jobs:
       checks: write
     steps:
       - uses: actions/checkout@v3
-      - uses: FirebaseExtended/action-hosting-deploy@v0.5
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MERFASH_WEBSITE }}'
