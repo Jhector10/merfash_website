@@ -8,10 +8,10 @@ jobs:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
     permissions:
-      id-token: write
       contents: write
       deployments: write
-      pull-requests: write   
+      pull-requests: write
+      checks: write   
     steps:
       - uses: actions/checkout@v3
       - uses: FirebaseExtended/action-hosting-deploy@v0
