@@ -1,28 +1,25 @@
 <div class="content">
-<article class="nyfw" data-aos="fade-up" data-aos-duration="3000">
-  <h1>New York Fashion Week</h1>
-  <h2>Grey’s Collection</h2>
-    <video class="fashion-show" autoplay muted controls >
+    <article class="nyfw" data-aos="fade-up" data-aos-duration="3000">
+        <h1>New York Fashion Week</h1>
+        <h2>Grey’s Collection</h2>
+        <video class="fashion-show" autoplay muted controls>
       <source src="assets/FashionShowVideo.mp4" type="video/mp4" >
     </video>
-    
-    <p class="description">On September 11th, 2022, Mercedes Santana was able to have the privilege and the honor to work on New York
-Fashion Week and have her own runway show. It was a part of the small business initiative
-located at 99 Scott Ave in Brooklyn, NY. She was able to showcase 20 dresses of her own original
-designs that you can see most here on this site (not for sale). This experience brought
-forth so many connections, lessons, and fun as this was her life long dream since she was a young
-girl growing up in the Dominican Republic. Thank you for viewing what she would like to call
-“Grey’s Collection”.</p>
-  </article>
-  <hr>
-  <article class="designs" data-aos="fade-up" data-aos-duration="3000">
-    <h1>My Creations</h1>
-    <p class="tagline">Each stitch is unique.</p>
-    <div class="my-designs">
-   <div *ngFor="let design of designs">
-    <a target="_blank" href="{{design.img}}">
-      <img src={{design.img}} alt={{design.alt}}>
-    </a>
-    </div> </div>
-  </article>
+
+        <p class="description">On September 11th, 2022, Mercedes Santana was able to have the privilege and the honor to work on New York Fashion Week and have her own runway show. It was a part of the small business initiative located at 99 Scott Ave in Brooklyn, NY. She was
+            able to showcase 20 dresses of her own original designs that you can see most here on this site (not for sale). This experience brought forth so many connections, lessons, and fun as this was her life long dream since she was a young girl
+            growing up in the Dominican Republic. Thank you for viewing what she would like to call “Grey’s Collection”.</p>
+    </article>
+    <hr>
+    <article class="designs" data-aos="fade-up" data-aos-duration="3000">
+        <h1>My Creations</h1>
+        <p class="tagline">Special Collection: NJ MODA 2024</p>
+        <div class="my-designs">
+            <div *ngFor="let design of designs">
+                <a target="_blank" href="{{design.img}}">
+                    <img src={{design.img}} alt={{design.alt}}>
+                </a>
+            </div>
+        </div>
+    </article>
 </div>

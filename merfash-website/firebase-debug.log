@@ -1,0 +1,40 @@
+[debug] [2024-05-09T04:11:00.912Z] ----------------------------------------------------------------------
+[debug] [2024-05-09T04:11:00.914Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Joshua Hector\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting -m Deploying to add Met Gala 2024
+[debug] [2024-05-09T04:11:00.914Z] CLI Version:   12.4.6
+[debug] [2024-05-09T04:11:00.914Z] Platform:      win32
+[debug] [2024-05-09T04:11:00.915Z] Node Version:  v18.17.0
+[debug] [2024-05-09T04:11:00.915Z] Time:          Thu May 09 2024 00:11:00 GMT-0400 (Eastern Daylight Time)
+[debug] [2024-05-09T04:11:00.915Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-09T04:11:00.918Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-05-09T04:11:01.011Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-09T04:11:01.011Z] > authorizing via signed-in user (jashsmash10@gmail.com)
+[debug] [2024-05-09T04:11:01.011Z] [iam] checking project merfash-website for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-09T04:11:01.012Z] > refreshing access token with scopes: []
+[debug] [2024-05-09T04:11:01.013Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-05-09T04:11:01.013Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-05-09T04:11:01.207Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-05-09T04:11:01.207Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-05-09T04:11:01.643Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-05-09T04:11:01.644Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-05-09T04:11:01.644Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/merfash-website:testIamPermissions [none]
+[debug] [2024-05-09T04:11:01.644Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/merfash-website:testIamPermissions x-goog-quota-user=projects/merfash-website
+[debug] [2024-05-09T04:11:01.644Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/merfash-website:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-09T04:11:02.207Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/merfash-website:testIamPermissions 401
+[debug] [2024-05-09T04:11:02.207Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/merfash-website:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions","service":"cloudresourcemanager.googleapis.com"}}]}}
+[debug] [2024-05-09T04:11:02.208Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-05-09T04:11:02.208Z] > refreshing access token with scopes: []
+[debug] [2024-05-09T04:11:02.208Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-05-09T04:11:02.208Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-05-09T04:11:02.296Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-05-09T04:11:02.296Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-05-09T04:11:02.297Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/merfash-website [none]
+[debug] [2024-05-09T04:11:02.873Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/merfash-website 401
+[debug] [2024-05-09T04:11:02.874Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/merfash-website {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-05-09T04:11:02.874Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-05-09T04:11:02.943Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\Joshua Hector\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Joshua Hector\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project merfash-website. Please make sure the project exists and your account has permission to access it.
