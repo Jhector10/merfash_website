@@ -7,6 +7,11 @@ jobs:
   build_and_preview:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+      pull-requests: write
+      checks: write   
     steps:
       - uses: actions/checkout@v3
       - uses: FirebaseExtended/action-hosting-deploy@v0
@@ -14,3 +19,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MERFASH_WEBSITE }}'
           projectId: merfash-website
+          ref: ${{ github.event.pull_request.base.ref }}
